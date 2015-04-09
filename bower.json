@@ -1,0 +1,18 @@
+{
+  "name": "EricRasch.com",
+  "shortName": "ericraschcom",
+  "version": "2.0.0",
+  "homepage": "https://github.com/ericrasch/EricRasch.com",
+  "author": {
+    "name": "Eric Rasch",
+    "url": "http://ericrasch.com/"
+  },
+  "description": "[EricRasch.com](http://www.ericrasch.com/) ========================================",
+  "version": "2.0.0",
+  "license": "ISC",
+  "dependencies": {
+    "fontawesome": "~4.3.0"
+  },
+  "devDependencies": {
+  }
+}
