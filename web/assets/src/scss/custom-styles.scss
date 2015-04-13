@@ -1,16 +1,16 @@
 
-$color-black-russian:   #18191D;
-$color-blue-whale:      #1e2b42;
-$color-blue-san-marino: #507894;
-$color-blue-seagull:    #71a5cc;
+$color-campfire-red:    #a30301;
+$color-sangria:         #740201;
+$color-maroon:          #470101;
+$color-tangerine:       #f68100;
 $color-blue-lavender:   #d0e3f7;
 $color-brown:           #2e2312;
 
-$header-background:     $color-black-russian;
-$main-background:       $color-blue-whale;
-$text-color:            $color-blue-lavender;
-$link-color:            $color-blue-seagull;
-$link-color-hover:      lighten($link-color, 50%);
+$header-background:     $color-maroon;
+$main-background:       $color-tangerine;
+$text-color:            $color-maroon;
+$link-color:            $color-campfire-red;
+$link-color-hover:      lighten($link-color, 25%);
 
 %hide-text {
     font: 0/0 a;
@@ -59,10 +59,9 @@ h1 {
   font-size: 2.8em;
   letter-spacing: 0.1em;
   line-height: 1.2;
-  text-shadow: 4px 3px 0px $header-background, 5px 4px 0px transparentize($text-color, 0.5);
+  text-shadow: 4px 3px 0px $header-background, 5px 4px 0px transparentize($link-color, 0.5);
   text-transform: uppercase;
 
-  top: 50%;
   /* SKM image replacement: https://css-tricks.com/examples/ImageReplacement/#kellum */
   width: 290px;
   height: 88px;
@@ -70,20 +69,13 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
 
-  @media (min-width: 1138px) {
-    top: 42%;
-  }
-  @media (max-width: 1138px) {
+  top: 42%;
+
+  @media (max-width: 690px) {
     top: 40%;
   }
-  @media (max-width: 690px) {
-    top: 38%;
-  }
-  @media (max-width: 565px) {
-    top: 36%;
-  }
   @media (max-width: 450px) {
-    top: 34%;
+    top: 38%;
   }
 
 }
