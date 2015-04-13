@@ -53,6 +53,8 @@ header {
 
 h1 {
   @extend %vertical-align;
+  background: url(../img/logo-campfiresites.png) no-repeat 0 0;
+  color: $main-background;
   font-family: 'Arvo', serif;
   font-size: 2.8em;
   letter-spacing: 0.1em;
@@ -61,6 +63,12 @@ h1 {
   text-transform: uppercase;
 
   top: 50%;
+  /* SKM image replacement: https://css-tricks.com/examples/ImageReplacement/#kellum */
+  width: 290px;
+  height: 88px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 
   @media (min-width: 1138px) {
     top: 42%;
