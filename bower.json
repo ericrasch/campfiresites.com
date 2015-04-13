@@ -8,11 +8,9 @@
     "url": "http://ericrasch.com/"
   },
   "description": "[EricRasch.com](http://www.ericrasch.com/) ========================================",
-  "version": "2.0.0",
   "license": "ISC",
   "dependencies": {
-    "fontawesome": "~4.3.0"
+    "normalize.css": "~3.0.3"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
