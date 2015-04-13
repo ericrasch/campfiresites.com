@@ -1,8 +1,8 @@
 {
-  "name": "EricRasch.com",
-  "shortName": "ericraschcom",
+  "name": "campfiresites.com",
+  "shortName": "campfiresitescom",
   "version": "2.0.0",
-  "description": "[EricRasch.com](http://www.ericrasch.com/) ========================================",
+  "description": "[campfiresites.com](http://www.campfiresites.com/) ========================================",
   "devDependencies": {
     "browser-sync": "^2.2.1",
     "del": "^1.1.1",
@@ -22,15 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ericrasch/EricRasch.com.git"
+    "url": "https://github.com/ericrasch/campfiresites.com.git"
   },
   "author": {
     "name": "Eric Rasch",
-    "url": "http://ericrasch.com/"
+    "url": "http://campfiresites.com/"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ericrasch/EricRasch.com/issues"
+    "url": "https://github.com/ericrasch/campfiresites.com/issues"
   },
-  "homepage": "https://github.com/ericrasch/EricRasch.com"
+  "homepage": "https://github.com/ericrasch/campfiresites.com"
 }

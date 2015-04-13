@@ -9,8 +9,8 @@
 
 
 # Force www. on the URL
-RewriteCond %{HTTP_HOST} ^www.ericrasch.com$ [NC]
-RewriteRule ^ http://ericrasch.com%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.campfiresites.com$ [NC]
+RewriteRule ^ http://campfiresites.com%{REQUEST_URI} [R=301,L]
 
 
 # Sending 404's to a custom page
@@ -110,7 +110,7 @@ RewriteRule . 410.php [L,R=410]
   # Rules to help reduce spam
   RewriteCond %{REQUEST_METHOD} POST
   RewriteCond %{REQUEST_URI} ^(.*)wp-comments-post\.php*
-  RewriteCond %{HTTP_REFERER} !^(.*)ericrasch.com.*
+  RewriteCond %{HTTP_REFERER} !^(.*)campfiresites.com.*
   RewriteCond %{HTTP_REFERER} !^http://jetpack\.wordpress\.com/jetpack-comment/ [OR]
   RewriteCond %{HTTP_USER_AGENT} ^$
   RewriteRule ^(.*)$ - [F]

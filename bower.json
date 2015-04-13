@@ -1,13 +1,13 @@
 {
-  "name": "EricRasch.com",
-  "shortName": "ericraschcom",
+  "name": "campfiresites.com",
+  "shortName": "campfiresitescom",
   "version": "2.0.0",
-  "homepage": "https://github.com/ericrasch/EricRasch.com",
+  "homepage": "https://github.com/ericrasch/campfiresites.com",
   "author": {
     "name": "Eric Rasch",
-    "url": "http://ericrasch.com/"
+    "url": "http://campfiresites.com/"
   },
-  "description": "[EricRasch.com](http://www.ericrasch.com/) ========================================",
+  "description": "[campfiresites.com](http://www.campfiresites.com/) ========================================",
   "license": "ISC",
   "dependencies": {
     "normalize.css": "~3.0.3"
