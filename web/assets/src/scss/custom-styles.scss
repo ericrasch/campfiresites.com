@@ -1,0 +1,121 @@
+
+$color-black-russian:   #18191D;
+$color-blue-whale:      #1e2b42;
+$color-blue-san-marino: #507894;
+$color-blue-seagull:    #71a5cc;
+$color-blue-lavender:   #d0e3f7;
+$color-brown:           #2e2312;
+
+$header-background:     $color-black-russian;
+$main-background:       $color-blue-whale;
+$text-color:            $color-blue-lavender;
+$link-color:            $color-blue-seagull;
+$link-color-hover:      lighten($link-color, 50%);
+
+%hide-text {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+  }
+
+%vertical-align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  color: $text-color;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+a:link, a:visited {
+  color: $link-color;
+}
+a:hover, a:active, a:focus {
+  color: $link-color-hover;
+}
+
+strong {
+  color: lighten($text-color, 8%);
+}
+
+header {
+  background: $header-background;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  @extend %vertical-align;
+  font-family: 'Arvo', serif;
+  font-size: 2.8em;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+  text-shadow: 4px 3px 0px $header-background, 5px 4px 0px transparentize($text-color, 0.5);
+  text-transform: uppercase;
+
+  top: 50%;
+
+  @media (min-width: 1138px) {
+    top: 42%;
+  }
+  @media (max-width: 1138px) {
+    top: 40%;
+  }
+  @media (max-width: 690px) {
+    top: 38%;
+  }
+  @media (max-width: 565px) {
+    top: 36%;
+  }
+  @media (max-width: 450px) {
+    top: 34%;
+  }
+
+}
+
+.social-icons {
+  @extend %vertical-align;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
+    margin-right: 0.6em;
+  }
+
+  a:link, a:visited {
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  span {
+    @extend %hide-text;
+    background: red;
+  }
+}
+
+main {
+  background: $main-background;
+  letter-spacing: 0.03em;
+  padding: 60px;
+  word-spacing: 0.06em;
+
+  @media (min-width: 960px) {
+    font-size: 1.2em;
+    line-height: 1.8;
+    padding: 90px;
+  }
+
+  p {
+    max-width: 960px;
+    margin: auto;
+  }
+}
