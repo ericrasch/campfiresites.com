@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="assets/dev/style.css">
+<link rel="stylesheet" href="assets/dist/style.min.css">
